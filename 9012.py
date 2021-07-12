@@ -14,7 +14,7 @@ for j in range(T):
   vps = sys.stdin.readline().strip()
   for i in range(len(vps)):
     if vps[i] == '(':
-      stack_push(stack, '(') # value는 vps[i]가 아니라 '('
+      stack_push(stack, '(') 
     elif vps[i] == ')':
       if len(stack) == 0 :
         answer = False
