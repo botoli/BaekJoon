@@ -1,3 +1,7 @@
+"""
+소괄호, 중괄호, 대괄호가 들어간 문자열이 vps인지 확인하기.
+"""
+
 import sys
 
 def stack_push(stack, value):
