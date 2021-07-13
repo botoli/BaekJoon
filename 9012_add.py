@@ -24,8 +24,29 @@ for j in range(T):
         answer = False
         break
       last = stack_pop(stack)
-      if last == '(' or last == '{' or last == '[':
-        continue
+      #if last == '(' or last == '{' or last == '[':
+      #  continue
+      if vps[i] == ')':
+        if last == '(':
+          continue
+        else:
+          answer = False
+          break
+
+      if vps[i] == '}':
+        if last == '{':
+          continue
+        else:
+          answer = False
+          break
+
+      if vps[i] == ']':
+        if last == '[':
+          continue
+        else:
+          answer = False
+          break
+
   if len(stack) != 0:
     answer = False
   if answer:
