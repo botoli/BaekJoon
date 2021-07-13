@@ -1,3 +1,6 @@
-'''
-https://www.acmicpc.net/problem/1924
-'''
+from sys import stdin
+
+input = stdin.readline
+N = int(input().split())
+
+
