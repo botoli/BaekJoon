@@ -6,7 +6,7 @@ input = stdin.readline
 
 n = int(input()) 
 # 띄어쓰기 오류가 날 때, 
-rstrip(공백괴 개행문자를 없앰) 이용하기.
+rstrip(오른쪽의 공백과 개행문자를 없앰) 이용하기.
 arr = list(map(int, input().split()))
 '''
 from sys import stdin
