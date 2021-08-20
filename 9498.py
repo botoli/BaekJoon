@@ -17,7 +17,7 @@
 
 <예제 출력>
 A
-'''
+'''  
 
 from sys import stdin
 
