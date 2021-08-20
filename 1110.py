@@ -72,13 +72,10 @@ nextNumber = originalNumber # 주어진 조건에 의해 연산된 값
 countNumber = 0 # 원래 값으로 돌아오는 사이클 수
 
 while True :
-  ten = originalNumber // 10 # originalNumber를 사용하면 무한 루프에 빠지게 된다.
-  print(nextNumber)
-  unit = originalNumber % 10
-  print(nextNumber)
+  ten = nextNumber // 10 # originalNumber를 사용하면 무한 루프에 빠지게 된다.
+  unit = nextNumber % 10
   unitOfNextNumber = (ten + unit) % 10
   nextNumber = (unit * 10) + unitOfNextNumber
-  print(nextNumber)
   countNumber += 1
   if originalNumber == nextNumber:
     break
