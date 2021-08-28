@@ -1,3 +1,12 @@
 {
-  "files": {}
+  "files": {
+    ".breakpoints": [
+      {
+        "id": "90f63533-b1d5-4633-bb3a-9bc2a1b58f50",
+        "line": 3,
+        "version": 1,
+        "index": 16
+      }
+    ]
+  }
 }
