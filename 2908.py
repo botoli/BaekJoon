@@ -38,7 +38,7 @@ threeDigitSummary_2 = 0
 for i in range(3):
   threeDigitSummary_1 += threeDigit_1 // ( 10 ** (2 - i) )
   threeDigitSummary_2 += threeDigit_2 // ( 10 ** (2 - i) )
-
+ 
 if threeDigitSummary_1 > threeDigitSummary_2:
   print(threeDigitSummary_1)
 else:
